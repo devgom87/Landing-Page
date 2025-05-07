@@ -87,6 +87,7 @@ button {
     align-items: center;
     color: #E5E7EB;
     width: 300px;
+    border-radius: 100%;
     padding: 100px;
     background-color: rgb(127, 131, 138);
 }
