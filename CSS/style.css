@@ -1,0 +1,157 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    display: flex;
+    background-color: #1F2937;
+}
+
+.img-hero {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    color: #22458b;
+    margin: 0;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 60px;
+
+}
+
+.left > h1 {
+    font-size: 48px;
+    color: #F9FAF8; 
+    font-weight: 900;
+}
+
+.left > p {
+    font: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.right > img {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    color: #E5E7EB;
+    width: 200px;
+    height: 200px;
+    margin: 0;
+    background-color: rgb(127, 131, 138);
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.info-h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.info > div {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.info-tiles > div > img {
+   border: 2px  #3882F6 solid;
+   border-radius: 10px;
+    width: 50;
+    height: 100px;
+   padding: 20px;
+   margin: 20px;
+}
+
+.info-tiles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9FAF8;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    padding: 40px;
+    width: auto;
+}
+
+.action  {
+    display: flex;
+    justify-content: center;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    width: 80%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+}
