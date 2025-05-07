@@ -70,7 +70,7 @@ button {
     color: #E5E7EB;
     border-radius: 10px;
     border-style: none;
-    padding: 20px;
+    padding: 10px 20px;
 }
 
 .right {
@@ -125,6 +125,14 @@ button {
     align-items: center;
     gap: 10px;
 }
+
+.info-tiles > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .quote {
     display: flex;
     justify-content: center;
